@@ -103,19 +103,13 @@ border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-
-  .grid-container{
-  
+  .grid-container {
+    grid-template-columns: 1fr;
     grid-template-areas: 
-  
-      "header" 
-      "sidebar"
-      "main"
-      "content"
-      ;
     
-    grid-template-columns: 1fr ;
-    grid-template-rows: auto;
-    gap: 20px;
-  } 
+      "header"
+      "main"
+      "sidebar"
+      "content";
+  }
 }
